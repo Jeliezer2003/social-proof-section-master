@@ -130,12 +130,14 @@ margin: 50px 80px;
 
 
   .contendor-morao{
-    display: flex;
+   display: flex;
+  
+    
   }
 
   .morao{
     background-color:  hsl(300, 43%, 22%);
-    width: 390px;
+    width: 350px;
     height: 250px;
     border-radius: 10px;
     margin-top: 50px;
@@ -173,11 +175,108 @@ margin: 50px 80px;
   }
   .text-colton1{
     color: white;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 25px ;
     margin-top: 25px ;
   }
 
+
+
+  .morao-1{
+    background-color:  hsl(300, 43%, 22%);
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 35px;
+    
+  }
+.content-1{
+    padding: 30px;
+    
+}
+
+
+  .irene{
+    display: flex;
+    font-weight: 700;
+    
+  
+    
+  }
+  .imagen-irene{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+   
+  }
+  .text-irene:first-child{
+    color: white;
+
+  }
+  .text-irene:last-child{
+    color: hsl(333, 80%, 67%);
+  }
+  .irene-content{
+    margin-left: 25px;
+    margin-top: 10px ;
+    
+  }
+  .text-irene1{
+    color: white;
+    font-size: 16px;
+    line-height: 25px ;
+    margin-top: 25px ;
+  }
+
+
+
+  .morao-2{
+    background-color:  hsl(300, 43%, 22%);
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-left: 35px;
+    
+  }
+.content-2{
+    padding: 30px;
+    
+}
+
+
+  .anne{
+    display: flex;
+    font-weight: 700;
+    
+  
+    
+  }
+  .imagen-anne{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+   
+  }
+  .text-anne:first-child{
+    color: white;
+
+  }
+  .text-anne:last-child{
+    color: hsl(333, 80%, 67%);
+  }
+  .anne-content{
+    margin-left: 25px;
+    margin-top: 10px ;
+    
+  }
+  .text-anne1{
+    color: white;
+    font-size: 16px;
+    line-height: 25px ;
+    margin-top: 25px ;
+  }
 
 
 
