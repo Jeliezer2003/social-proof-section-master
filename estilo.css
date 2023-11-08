@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+
+}
+.contenedor{
+margin: 50px 80px;
+ width: 1200px;
+ height:500px ;
+
+}
+.contenido-1{
+    display:flex ;
+   
+}
+.main{
+    width: 400px;
+    height: 250px;
+
+}
+
+.main-1:first-child{
+    font-size: 47px;
+    display: flex;
+    color:  hsl(300, 43%, 22%);
+    font-weight: 700;
+   
+   
+    
+}
+.main-1:last-child{ 
+  color: hsl(303, 10%, 53%);
+  font-size: 16px;
+  margin-top: 17px;
+  font-weight: 700;
+
+}
+.estrellas{
+    margin-left: 250px ;
+
+
+}
+.text1{
+  color: hsl(300, 43%, 22%);
+  align-self: center ;
+  margin-left: 30px;
+  font-weight: 700;
+
+  
+}
+.imag-1{
+    display: flex;
+    width: 400px;
+    height: 40px;
+    background-color:   hsl(300, 24%, 96%);
+    margin-left: 60px ;
+    margin-top: 30px;
+    border-radius: 7px;
+    
+}
+.img{
+    width: 16px;
+    height: 17px;
+    align-self: center ;
+     margin: 5px ;
+}
+
+
+
+.text-1{
+    color: hsl(300, 43%, 22%);
+    align-self: center ;
+    margin-left: 30px;
+    font-weight: 700;
+  
+    
+  }
+  .imag{
+      display: flex;
+      width: 400px;
+      height: 40px;
+      background-color:   hsl(300, 24%, 96%);
+      margin-left: 30px ;
+      margin-top: 30px;
+    border-radius: 7px;
+    margin-left: 0;
+      
+  }
+  .img-1{
+      width: 16px;
+      height: 17px;
+      align-self: center ;
+       margin: 5px ;
+  }
+  
+
+
+
+
+
+
+.text2{
+    color: hsl(300, 43%, 22%);
+    align-self: center ;
+    margin-left: 30px;
+    font-weight: 700;
+  
+    
+  }
+  .imag2{
+      display: flex;
+      width: 400px;
+      height: 40px;
+      background-color:   hsl(300, 24%, 96%);
+      margin-left: 120px ;
+    border-radius: 7px;
+    margin-top: 30px;
+      
+  }
+  .img-2{
+      width: 16px;
+      height: 17px;
+      align-self: center ;
+       margin: 5px ;
+  }
+
+
+  .contendor-morao{
+    display: flex;
+  }
+
+  .morao{
+    background-color:  hsl(300, 43%, 22%);
+    width: 390px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 50px;
+    
+  }
+.content{
+    padding: 30px;
+    
+}
+
+
+  .colton{
+    display: flex;
+    font-weight: 700;
+    
+  
+    
+  }
+  .imagenn{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+   
+  }
+  .text-colton:first-child{
+    color: white;
+
+  }
+  .text-colton:last-child{
+    color: hsl(333, 80%, 67%);
+  }
+  .colton-content{
+    margin-left: 25px;
+    margin-top: 10px ;
+  }
+  .text-colton1{
+    color: white;
+    font-size: 17px;
+    line-height: 25px ;
+    margin-top: 25px ;
+  }
+
+
+
+
+
+  
