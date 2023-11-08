@@ -291,13 +291,11 @@ margin: 50px 80px;
   display: block;
  
 }
-.contenido-2{
-  display:block;
+
 
 }
 .main1{
-  width: 400px;
-  height: 250px;
+margin-left: 50px;
 
 }
 
@@ -399,6 +397,7 @@ font-weight: 700;
     height: 17px;
     align-self: center ;
      margin: 5px ;
+    
 
 }
 
@@ -406,7 +405,8 @@ font-weight: 700;
 
 
      .contendor-morao5{
-      margin-left: 15px;
+      margin-left: 10px;
+      display: block;
      
      }
        
