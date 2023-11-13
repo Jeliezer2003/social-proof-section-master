@@ -10,13 +10,15 @@
   margin: 80px auto;
   max-width: 800px;
 }
+
 @media (1024px <= width) {
-.main-container {
-  max-width: unset;
-}
+ .main-container{ max-width: unset;
+}}
+
 
   @media (1024px <= width) {
-    .top { display: flex;
+    .top {
+    display: flex;
     justify-content: space-between;
   }
 }
@@ -26,16 +28,15 @@ h1 {
   text-align: center;
   max-width: 280px;
   font-size: 38px;
-
+  margin: 0 auto;
 }
 @media (1024px <= width) {
-  hi{ font-size: 60px;
-   text-align: left;
-   margin: 0;
-   min-width: 100%;
- }
- }
-
+  h1 {
+  font-size: 60px;
+  text-align: left;
+  margin: 0;
+  min-width: 100%;
+}}  
 
 .text p {
   color: hsl(303, 10%, 53%);
@@ -50,18 +51,19 @@ h1 {
   max-width: 500px;
   font-size: 20px;
   margin-top: 20px;
-}
-}
+}}
 
 .reviews {
   margin-top: 30px;
 }
+
 @media (1024px <= width) {
- .reviews{ width: 40%;
+  .reviews{
+  width: 40%;
   margin: 0;
   padding: 20px 0;
-}
-}
+}}
+
 .review {
   padding: 20px 0;
   background-color: hsl(300, 24%, 96%);
@@ -71,16 +73,14 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
-
-@media (1024px <= width){
-  .review{flex-direction: row;
+@media (1024px <= width) {
+  .review {
+  flex-direction: row;
   padding: 20px;
   justify-content: unset;
   max-width: 100%;
-}
-}
+}}
 
 @media (1024px <= width) {
   .review:nth-child(1) {
@@ -96,22 +96,22 @@ h1 {
   color: hsl(300, 43%, 22%);
   font-weight: 600;
   font-size: 18px;
+}
 
-}
 @media (1024px <= width) {
- .review p{ margin-left: 40px;
-}
+  .review p {
+  margin-left: 40px;
+}}
 
 .testimonials {
   margin-top: 40px;
+}
 
-}
 @media (1024px <= width) {
-  .testimonials{
-    display: flex;
+  .testimonials {
+  display: flex;
   gap: 30px;
-}
-}
+}}
 
 .testimonial {
   border-radius: 8px;
@@ -121,11 +121,12 @@ h1 {
   margin-bottom: 20px;
 
 }
+
 @media (1024px <= width) {
- .testimonial{ margin-bottom: 0;
-  max-height: 230px;
-}
-}
+  .testimonial {
+   margin-bottom: 0;
+   max-height: 230px;
+ }}
 
 @media (1024px <= width) {
   .testimonial:nth-child(2) {
@@ -154,7 +155,6 @@ h1 {
   font-size: 15px;
   font-weight: 400;
 }
-
 .testimonial .top .top-text h3, span {
   font-size: 15px;
   font-weight: 500;
@@ -172,4 +172,3 @@ h1 {
   font-weight: 600;
   font-size: 15px;
 }
-}}
